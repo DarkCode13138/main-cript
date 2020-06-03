@@ -1119,6 +1119,7 @@ footer {
     flex-direction: column;
     align-items: center;
 }
+.m-cabinet__form-button button,
 .form__auth-button button{
     background: #1F7996;
     border-radius: 40px;
@@ -1136,6 +1137,7 @@ footer {
     cursor: pointer;
     margin-bottom: 27px;
 }
+.m-cabinet__form-button button:hover,
 .form__auth-button button:hover{
     transition: .5s;
     background: #035196;
@@ -1157,4 +1159,75 @@ footer {
     padding-right: 0;
     padding-left: 173px;
     border-left:2px solid #FFFFFF ;
+}
+.m-cabinet__wrap{
+    background: rgba(8, 25, 14, 0.84);
+    border-radius: 25px;
+    padding: 35px 138px 28px 138px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: #ffffff;
+}
+
+.m-cabinet__title{
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.225em;
+    margin-bottom: 30px;
+}
+.m-cabinet__navigation{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.13em;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.m-cabinet__navigation-el:hover{
+    color: #4ED16B;
+    transition: .3s;
+}
+.m-cabinet__form-row{
+    margin-bottom: 16px;
+}
+.m-cabinet__form-row label{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+}
+.m-cabinet__form-el {
+    margin-top: 17px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 10px 20px;
+}
+.m-cabinet__form-el input {
+    width: 100%;
+    outline: none;
+    border: none;
+    letter-spacing: 0.13em;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.m-cabinet__subtitle{
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.13em;
+    margin-bottom: 14px;
+    margin-top: 29px;
+}
+.m-cabinet__form-button{
+    margin-top: 10px;
 }
